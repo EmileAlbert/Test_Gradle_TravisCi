@@ -19,7 +19,7 @@ public class PeopleTest {
         int age = Jonh.getAge();
         int supplYear = 30;
 
-        int expectedAge = age + supplYear ;
+        int expectedAge = age + supplYear +1;
         assertEquals(expectedAge, Jonh.getOlder(supplYear));
     }
 

@@ -2,7 +2,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class PeopleTest {
-    People Jonh = new People("Doe", "Jonh", 24);
+    People Jonh = new People("Doe", "Jonh", 30);
 
     @Test
     public void getBirthYear() {

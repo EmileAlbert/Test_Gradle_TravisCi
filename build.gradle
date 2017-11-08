@@ -1,8 +1,6 @@
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'coveralls'
-apply plugin: 'jacoco'
 
 sourceCompatibility = 1.8
 
@@ -12,12 +10,6 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    classpath 'org.kt3k.gradle.plugin:coveralls-gradle-plugin:0.3.0'
+    
 }
 
-jacocoTestReport {
-    reports {
-        xml.enabled = true
-        html.enabled = true
-    }
-}

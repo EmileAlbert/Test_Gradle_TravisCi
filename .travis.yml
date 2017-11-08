@@ -2,5 +2,5 @@ language: java
 jdk:
   - oraclejdk8
   
-after_success :
-  - Gradle jacocoTestReport combinaisons
+after_success:
+- ./gradlew jacocoTestReport coveralls
